@@ -28,3 +28,7 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+sverraest_revolut_php:
+    api_key: '%env(REVOLUT_KEY)%'
+    mode: '%env(REVOLUT_MODE)%' # options are production or sandbox
